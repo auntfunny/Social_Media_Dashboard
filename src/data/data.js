@@ -81,20 +81,20 @@ export const dashboardData = {
     {
       platform: "instagram",
       icon: "/images/icon-instagram.svg",
-      metric: "Likes",
-      value: 5462,
+      metric: "Profile Views",
+      value: "52k",
       change: {
-        percentage: 2257,
+        percentage: 1375,
         isPositive: true
       }
     },
     {
       platform: "instagram",
       icon: "/images/icon-instagram.svg",
-      metric: "Profile Views",
-      value: "52k",
+      metric: "Likes",
+      value: 5462,
       change: {
-        percentage: 1375,
+        percentage: 2257,
         isPositive: true
       }
     },
@@ -121,6 +121,16 @@ export const dashboardData = {
     {
       platform: "youtube",
       icon: "/images/icon-youtube.svg",
+      metric: "Total Views",
+      value: 1407,
+      change: {
+        percentage: 12,
+        isPositive: false
+      }
+    },
+    {
+      platform: "youtube",
+      icon: "/images/icon-youtube.svg",
       metric: "Likes",
       value: 107,
       change: {
@@ -128,16 +138,6 @@ export const dashboardData = {
         isPositive: false
       }
     },
-    {
-      platform: "youtube",
-      icon: "/images/icon-youtube.svg",
-      metric: "Total Views",
-      value: 1407,
-      change: {
-        percentage: 12,
-        isPositive: false
-      }
-    }
   ],
 
   // Iconos para cambios positivos/negativos
