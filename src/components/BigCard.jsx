@@ -1,12 +1,9 @@
 function BigCard({ socialCard, arrow }) {
-    let classes =`absolute inset-x-0 top-0 h-1.5 rounded-t-lg`
-  if (socialCard.platform === "instagram") {
-     classes += ` bg-gradient-to-r from-insta1 via-insta2 to-insta3`
-  } 
+    
   return (
     
       <div className="relative flex flex-col justify-center items-center gap-6 w-84 p-6 rounded-lg bg-light2 text-light3 font-bold">
-        <div className={classes} style={{backgroundColor: socialCard.accentColor}}></div>
+        <div className="absolute inset-x-0 top-0 h-1.5 rounded-t-lg" style={{background: socialCard.accentColor}}></div>
         <div className="flex gap-4">
           <img
             src={socialCard.icon}
