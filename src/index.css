@@ -9,11 +9,13 @@
     --color-light2: #f0f2fa;
     --color-light3: #63687e;
     --color-light4: #1e202a;
+    --color-lightHover: #e1e3f0;
 
     --color-dark1: #1e202a;
     --color-dark2: #1f212e;
     --color-dark3: #252a41;
     --color-dark4: #aeb3cb;
+    --color-darkHover: #333a56;
 
     --color-darkmodebg1: #aeb3cb;
     --color-darkmodebg2: #368fe7;

@@ -2,7 +2,7 @@ function BigCard({ socialCard, arrow }) {
     
   return (
     
-      <div className="relative flex flex-col justify-center items-center gap-6 w-84 md:w-78 lg:w-64 p-6 rounded-lg bg-light2 text-light3 font-bold transition-colors duration-500 ease-in-out dark:bg-dark3 dark:text-dark4">
+      <div className="relative flex flex-col justify-center items-center gap-6 w-84 md:w-78 lg:w-64 p-6 rounded-lg bg-light2 text-light3 hover:cursor-pointer hover:bg-lightHover dark:hover:bg-darkHover font-bold transition-colors duration-500 ease-in-out dark:bg-dark3 dark:text-dark4">
         <div className="absolute inset-x-0 top-0 h-1.5 rounded-t-lg" style={{background: socialCard.accentColor}}></div>
         <div className="flex gap-4">
           <img
